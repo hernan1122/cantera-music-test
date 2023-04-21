@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Header } from "./components/Header";
 import { Song } from "./components/Song";
-import { Category } from "./components/Category";
+import { Categories } from "./components/Categories";
 import { Add } from "./components/Add";
 import './styles/Home.css'
 
@@ -61,7 +61,7 @@ export function Home() {
         }
       </div>
 
-      <Category />
+      <Categories />
       <button
         className="AddButton-button"
         onClick={handleModal}
