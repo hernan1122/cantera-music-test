@@ -1,0 +1,11 @@
+.PlayerHeader{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.PlayerHeader-Icon{
+  font-size: 24px;
+  margin: 20px 0 10px 0;
+  color: var(--circle-icons);
+}
