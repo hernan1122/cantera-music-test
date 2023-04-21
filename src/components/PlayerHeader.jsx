@@ -8,7 +8,8 @@ function PlayerHeader(props) {
   return (
     <div className="PlayerHeader">
       <BsArrowLeftShort className="PlayerHeader-Icon" />
-      <h2>Hola Soy Marlene</h2>
+      <h2>Hola Soy El facu
+      </h2>
       <BsMusicNoteList className="PlayerHeader-Icon" />
     </div>
   );
