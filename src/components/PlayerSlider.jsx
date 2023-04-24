@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/PlayerSlider.css'
-
+import { PlayerButtons } from './PlayerButtons';
 
 function PlayerSlider() {
   return (
@@ -26,7 +26,12 @@ function PlayerSlider() {
         <div className="Progressline">
           <div></div>
         </div>
+        <div className="PlayerSlider-TimeContainer">
+          <span>1:20</span>
+          <span>2:40</span>
+        </div>
       </section>
+      <PlayerButtons />
     </>
   );
 }
