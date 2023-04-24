@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/PlayerSlider.css'
-
+import { PlayerButtons } from './PlayerButtons';
 
 function PlayerSlider() {
   return (
@@ -31,6 +31,7 @@ function PlayerSlider() {
           <span>2:40</span>
         </div>
       </section>
+      <PlayerButtons />
     </>
   );
 }
