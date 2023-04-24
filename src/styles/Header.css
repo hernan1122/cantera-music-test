@@ -3,7 +3,7 @@
   padding: 0 20px;
   position: fixed;
   top: 0;
-  background: #011f2c;
+  background: var(--background-header-menu);
 }
 .Header-title {
   width: 100%;

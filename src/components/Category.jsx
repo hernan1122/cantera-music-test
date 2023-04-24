@@ -2,6 +2,7 @@ import React from "react";
 import { Header } from "./Header";
 import { Song } from "./Song";
 import "../styles/Category.css";
+import { FooterMenu } from "./FooterMenu";
 //EN ESTE COMPONENTE TENGO QUE TRABAJAR
 const songs = [
   {
@@ -47,7 +48,7 @@ const songs = [
 ];
 export function Category() {
   return (
-    <di>
+    <div>
       <Header />
       <div>
         <Song />
@@ -58,6 +59,7 @@ export function Category() {
           })}
         </div>
       </div>
-    </di>
+      <FooterMenu />
+    </div>
   );
 }

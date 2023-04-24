@@ -1,15 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/PlayerHeader.css";
 
 //Icons
 import { BsArrowLeftShort } from "react-icons/bs";
 import { BsMusicNoteList } from "react-icons/bs";
-function PlayerHeader(props) {
+function PlayerHeader() {
   return (
     <div className="PlayerHeader">
-      <BsArrowLeftShort className="PlayerHeader-Icon" />
-      <h2>Hola Soy El facu
-      </h2>
+      <Link to="/">
+        <BsArrowLeftShort className="PlayerHeader-Icon" />
+      </Link>
+      <h2>Reproduciendo</h2>
       <BsMusicNoteList className="PlayerHeader-Icon" />
     </div>
   );

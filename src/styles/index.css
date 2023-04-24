@@ -6,6 +6,7 @@
 :root {
   --background: #012433;
   /* --background: #00425e; */
+  --background-header-menu: #011f2c;
   --title: #008a5e;
   --text-primary: #fff;
   --text-secundary: #acacac;
@@ -46,6 +47,11 @@ h4 {
   font-size: 1.6rem;
   font-weight: 300;
   color: var(--text-primary);
+}
+h6 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--icons-buttons);
 }
 p {
   font-size: 1.4rem;
