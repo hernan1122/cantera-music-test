@@ -5,8 +5,9 @@ import '../styles/Categories.css'
 //aca importamos un icono
 import { BsMusicNoteBeamed } from 'react-icons/bs';
 import { CgMediaPodcast } from 'react-icons/cg';
-import { ImBooks } from 'react-icons/im';
 import { MdMenuBook } from 'react-icons/md';
+import { FiMusic } from 'react-icons/fi';
+import { BiMusic } from 'react-icons/bi';
 
 export function Categories (){
   return (
@@ -15,7 +16,7 @@ export function Categories (){
       <div className="Categories-container">
         <Link className="Categories-content" to='/category'>
           <div className="circle">
-            <BsMusicNoteBeamed className="Categories-icons"/>
+            <BiMusic className="Categories-icons"/>
           </div>
           <h3>Música</h3>
         </Link>
