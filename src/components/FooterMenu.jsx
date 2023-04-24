@@ -16,7 +16,7 @@ export function FooterMenu() {
       </Link>
       <Link className='FooterMenu-link' to='/'>
         <HiHome className='FooterMenu-icons' />
-        <h5>Home</h5>
+        <h5>Inicio</h5>
       </Link>
       <Link className='FooterMenu-link' to='/'>
         <BiAddToQueue className='FooterMenu-icons' />
