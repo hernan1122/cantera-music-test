@@ -52,7 +52,7 @@ export function Home() {
 
       <Categories />
       <button className="AddButton-button" onClick={handleModal}>
-        Agregar Tu Archivo
+        Agrega Tu Archivo
       </button>
       <Add see={seeModal} notSee={setSeeModal} />
     </div>
