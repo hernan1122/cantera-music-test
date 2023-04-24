@@ -1,13 +1,13 @@
-.Category {
+.Categories {
   width: 100%;
 }
-.Category-container {
+.Categories-container {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.Category-content {
+.Categories-content {
   width: 90px;
   margin: 6px 0 20px 0;
   display: flex;
@@ -15,6 +15,7 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  text-decoration: none;
 }
 .circle {
   width: 68px;
@@ -28,7 +29,7 @@
   align-items: center;
   z-index: -1;
 }
-.Category-icons {
+.Categories-icons {
   font-size: 35px;
   color: var(--icons-buttons);
 }
