@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/PlayerButtons.css'
 
+import {FooterMenu} from "./FooterMenu"
 import {BsPlayFill} from "react-icons/bs"
 import {BsShuffle} from "react-icons/bs"
 import {BsRewindFill} from "react-icons/bs"
@@ -26,6 +27,7 @@ export function PlayerButtons(){
                     <BsRepeat1 className="small"/>
                 </button>
             </div>
+            <FooterMenu/>
         </div>
     )
 }
