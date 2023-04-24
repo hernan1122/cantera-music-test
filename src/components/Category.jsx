@@ -3,7 +3,7 @@ import { Header } from "./Header";
 import { Song } from "./Song";
 import "../styles/Category.css";
 import { FooterMenu } from "./FooterMenu";
-//EN ESTE COMPONENTE TENGO QUE TRABAJAR
+
 const songs = [
   {
     title: "Un Finde",
