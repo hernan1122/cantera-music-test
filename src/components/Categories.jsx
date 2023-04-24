@@ -1,34 +1,36 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import '../styles/Categories.css'
 
 //aca importamos un icono
 import { BsMusicNoteBeamed } from 'react-icons/bs';
-import { AiFillAudio } from 'react-icons/ai';
+import { CgMediaPodcast } from 'react-icons/cg';
 import { ImBooks } from 'react-icons/im';
+import { MdMenuBook } from 'react-icons/md';
 
 export function Categories (){
   return (
-    <div className="Category">
+    <div className="Categories">
       <h2>Categorías</h2>
-      <div className="Category-container">
-        <div className="Category-content">
+      <div className="Categories-container">
+        <Link className="Categories-content" to='/category'>
           <div className="circle">
-            <BsMusicNoteBeamed className="Category-icons"/>
+            <BsMusicNoteBeamed className="Categories-icons"/>
           </div>
           <h3>Música</h3>
-        </div>
-        <div className="Category-content">
+        </Link>
+        <Link className="Categories-content" to='/category'>
           <div className="circle">
-            <AiFillAudio className="Category-icons"/>
+            <CgMediaPodcast className="Categories-icons"/>
           </div>
           <h3>Podcast</h3>
-        </div>
-        <div className="Category-content">
+        </Link>
+        <Link className="Categories-content" to='/category'>
           <div className="circle">
-            <ImBooks className="Category-icons"/>
+            <MdMenuBook className="Categories-icons"/>
           </div>
           <h3>A. Libros</h3>
-        </div>
+        </Link>
       </div>
     </div>
   )
