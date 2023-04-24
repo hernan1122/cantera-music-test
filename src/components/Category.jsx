@@ -45,6 +45,26 @@ const songs = [
     artist: "La Mosca",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQizxz7gRepBlM4aVH-JNcnKBrogOzKl020Ng&usqp=CAU",
   },
+  {
+    title: "High hopes",
+    artist: "Panic at the Disco",
+    img: "https://lastfm.freetls.fastly.net/i/u/ar0/7b944039297639ed837617053a3cd1ca.jpg",
+  },
+  {
+    title: "Chance",
+    artist: "Attaque ",
+    img: "https://i.scdn.co/image/ab67616d00001e02611223656448ed75b3188d34",
+  },
+  {
+    title: "Cuéntame",
+    artist: "Luck ra ft lit",
+    img: "https://m.media-amazon.com/images/I/51F43YRRqZL._UXNaN_FMjpg_QL85_.jpg",
+  },
+  {
+    title: "Puño de Diamantes",
+    artist: "Dale que va",
+    img: "https://i.scdn.co/image/ab67616d0000b2731c64a3f94a3c5901abcb1b9e",
+  },
 ];
 export function Category() {
   return (
