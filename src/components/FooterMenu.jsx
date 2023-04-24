@@ -12,7 +12,7 @@ export function FooterMenu() {
     <div className='FooterMenu'>
       <Link className='FooterMenu-link' to='/player'>
         <BiCategory className='FooterMenu-icons' />
-        <h5>Category</h5>
+        <h5>Categorías</h5>
       </Link>
       <Link className='FooterMenu-link' to='/'>
         <HiHome className='FooterMenu-icons' />
