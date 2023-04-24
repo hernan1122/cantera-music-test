@@ -12,15 +12,15 @@ export function FooterMenu() {
     <div className='FooterMenu'>
       <Link className='FooterMenu-link' to='/player'>
         <BiCategory className='FooterMenu-icons' />
-        <h5>Category</h5>
+        <h6>Categorías</h6>
       </Link>
       <Link className='FooterMenu-link' to='/'>
         <HiHome className='FooterMenu-icons' />
-        <h5>Home</h5>
+        <h6>Inicio</h6>
       </Link>
       <Link className='FooterMenu-link' to='/'>
         <BiAddToQueue className='FooterMenu-icons' />
-        <h5>Agregar</h5>
+        <h6>Agregar</h6>
       </Link>
     </div>
   );
