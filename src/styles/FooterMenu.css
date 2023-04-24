@@ -11,6 +11,7 @@
   border-top: 2px solid #00141d;
 }
 .FooterMenu-link {
+  width: 50px;
   display: grid;
   place-items: center;
   text-decoration: none;
