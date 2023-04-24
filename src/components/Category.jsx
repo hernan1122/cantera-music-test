@@ -50,7 +50,7 @@ export function Category() {
   return (
     <div>
       <Header />
-      <div>
+      <div className="Category">
         <Song />
         <div className="Song-container">
           <h2>Canciones</h2>
