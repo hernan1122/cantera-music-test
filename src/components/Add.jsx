@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../styles/Add.css'
 
 export function Add({ see, notSee }) {
