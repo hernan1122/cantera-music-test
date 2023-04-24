@@ -6,12 +6,10 @@
     margin-bottom: 65px;
 }
 .PlayerButtons-container{
-    width: 250px;
-    /* background-color: aqua; */
+    width: 290px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 6px;
 }
 button {
     border: none;

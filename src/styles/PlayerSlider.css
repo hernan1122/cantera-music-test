@@ -13,7 +13,7 @@
 }
 .PlayerSlider-container-slider section{
   width: 100%;
-  padding: 10px;
+  padding: 20px;
 }
 .PlayerSlider-container-slider section img{
   width: 230px;
@@ -36,7 +36,7 @@
 .Progressline {
   margin-top: 20px;
   content: "";
-  width: 250px;
+  width: 290px;
   height: 2px;
   background: rgba(128, 128, 128, 0.315);
   border-radius: 10px;
@@ -62,7 +62,7 @@
   top: calc(50% - 7px);
 }
 .PlayerSlider-TimeContainer{
-  width: 250px;
+  width: 290px;
   /* background-color: blue; */
   display: flex;
   justify-content: space-between;
