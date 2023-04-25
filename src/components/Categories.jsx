@@ -3,10 +3,8 @@ import { Link } from 'react-router-dom';
 import '../styles/Categories.css'
 
 //aca importamos un icono
-import { BsMusicNoteBeamed } from 'react-icons/bs';
 import { CgMediaPodcast } from 'react-icons/cg';
 import { MdMenuBook } from 'react-icons/md';
-import { FiMusic } from 'react-icons/fi';
 import { BiMusic } from 'react-icons/bi';
 
 export function Categories (){
