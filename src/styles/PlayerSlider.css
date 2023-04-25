@@ -46,7 +46,6 @@
   width: 50%;
   height: 2px;
   background: var(--title);
-  z-index: 1;
   position: relative;
   border-radius: 10px;
 }
@@ -56,14 +55,12 @@
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  z-index: 1;
   background: var(--title);
   left: calc(100% - 7px);
   top: calc(50% - 7px);
 }
 .PlayerSlider-TimeContainer{
   width: 290px;
-  /* background-color: blue; */
   display: flex;
   justify-content: space-between;
   margin-top: 6px;
