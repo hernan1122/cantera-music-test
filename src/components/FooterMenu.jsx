@@ -8,6 +8,7 @@ import '../styles/FooterMenu.css'
 import { BiCategory } from 'react-icons/bi'
 import { HiHome } from 'react-icons/hi'
 import { BiAddToQueue } from 'react-icons/bi'
+import { MdOutlineClose } from 'react-icons/md'
 
 export function FooterMenu() {
   const [seeModal, setSeeModal] = useState(false);
@@ -21,6 +22,10 @@ export function FooterMenu() {
     setSeeCategories(!seeCategories);
   }
 
+  const closedCategories = () => {
+    setSeeCategories(!seeCategories);
+  }
+
   return (
     <div className='FooterMenu'>
       <div className='FooterMenu-link' onClick={handleCategories}>
@@ -28,7 +33,10 @@ export function FooterMenu() {
         <h6>Categorías</h6>
       </div>
       {seeCategories && <div className="FooterMenu-container-categories">
-        <div className="FooterMenu-categories"><Categories /></div>
+        <div className="FooterMenu-categories">
+          <MdOutlineClose className="FooterMenu-categories-icon" onClick={closedCategories}/>
+          <Categories />
+        </div>
       </div>}
       <Link className='FooterMenu-link' to='/'>
         <HiHome className='FooterMenu-icons' />

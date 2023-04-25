@@ -29,6 +29,14 @@
   display: grid;
   place-items: center;
 }
+.FooterMenu-categories-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 25px;
+  color: var(--text-secundary);
+  cursor: pointer;
+}
 .FooterMenu-categories {
   height: 175px;
   padding: 0 17px;
