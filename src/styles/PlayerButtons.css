@@ -23,13 +23,13 @@ button {
     color: var(--icons-buttons);
 }
 .PlayerButtons-container .play-pause{
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     box-shadow: 0 0 24px 2px #011822;
     padding-left: 4px;
 }
 .btnPlay{
-    font-size: 40px;
+    font-size: 45px;
     color: var(--icons-buttons);
 }

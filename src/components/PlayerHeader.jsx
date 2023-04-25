@@ -9,10 +9,12 @@ function PlayerHeader() {
   return (
     <div className="PlayerHeader">
       <Link to="/">
-        <BsArrowLeftShort className="PlayerHeader-Icon" />
+        <BsArrowLeftShort className="PlayerHeader-Icon-Back" />
       </Link>
       <h2>Reproduciendo</h2>
-      <BsMusicNoteList className="PlayerHeader-Icon" />
+      <Link to="/category">
+        <BsMusicNoteList className="PlayerHeader-Icon" />
+      </Link>
     </div>
   );
 }
