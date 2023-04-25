@@ -5,7 +5,12 @@
   justify-content: space-between;
   padding: 0 20px;
 }
-.PlayerHeader-Icon{
+.PlayerHeader-Icon-Back {
+  font-size: 34px;
+  margin: 20px 0 10px 0;
+  color: var(--circle-icons);
+}
+.PlayerHeader-Icon {
   font-size: 24px;
   margin: 20px 0 10px 0;
   color: var(--circle-icons);
