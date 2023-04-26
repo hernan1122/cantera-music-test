@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import '../styles/NotFound.css'
+
 
 import logoApp from '../images/cat.png';
 import imgError from '../images/pexels-lucas-pezeta-2930204.png'
@@ -18,7 +20,7 @@ export function NotFound(){
       <div className="NotFound-content-imgError">
           <img className="NotFound-imgError" src={imgError} alt="gatoBurlon" />
           <h1 className="NotFound-error-LineText">Oops!!<br/>Algo salió mal!!</h1>
-          <button className="NotFound-error-volver">Volver</button>
+          <Link className="NotFound-error-volver" to="/">Volver</Link>
       </div>
       </main>
     </div>
