@@ -36,7 +36,7 @@
 
 .NotFound-imgError{
   width: 280px;
-  height: 400px;
+  height: 450px;
   object-fit: cover;
   object-position: center;
   align-items: center;
@@ -48,7 +48,7 @@
   text-align: center;
   align-items: center;
   position: absolute;
-  bottom: 90px;
+  bottom: 50px;
   font-size: 2.7rem;
   line-height: 35px;
 }
