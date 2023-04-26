@@ -1,12 +1,12 @@
-.Header {
+.NotFound-header {
   width: 100%;
   height: 100vh;
   padding: 0 20px;
   position: fixed;
   top: 0;
-  background: var(--background-header-menu);
+  background-color: var(--background-header-menu);
 }
-.Header-title {
+.NotFound-header-title {
   width: 100%;
   height: 80px;
   display: flex;
@@ -14,18 +14,18 @@
   align-items: center;
   gap: 15px;
 }
-.Header-content-title {
+.NotFound-header-content-title {
   display:flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   cursor: pointer;
 }
-.Header-logoApp {
+.NotFound-header-logoApp {
   width: 40px;
 }
 
-.content-imgError{
+.NotFound-content-imgError{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,13 +33,13 @@
   
 }
 
-.imgError{
+.NotFound-imgError{
   width: 280px;
   align-items: center;
   border-radius: 12px;
 }
 
-.Error-LineText {
+.NotFound-error-LineText {
   text-align: center;
   align-items: center;
   position: absolute;
@@ -48,7 +48,7 @@
   line-height: 35px;
 }
 
-.error-volver{
+.NotFound-error-volver {
   height: 45px;
   font-family: 'Ubuntu', sans-serif;
   background-color: var(--icons-buttons);
