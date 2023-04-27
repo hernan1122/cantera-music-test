@@ -24,7 +24,6 @@
 .NotFound-header-logoApp {
   width: 40px;
 }
-
 .NotFound-content-imgError{
   display: flex;
   justify-content: center;
@@ -33,7 +32,6 @@
   position: relative;
 
 }
-
 .NotFound-imgError{
   width: 280px;
   height: 450px;
@@ -43,7 +41,6 @@
   border-radius: 12px;
   margin-top: 20px;
 }
-
 .NotFound-error-LineText {
   text-align: center;
   align-items: center;
@@ -52,7 +49,6 @@
   font-size: 2.7rem;
   line-height: 35px;
 }
-
 .NotFound-error-volver {
   height: 45px;
   font-family: 'Ubuntu', sans-serif;

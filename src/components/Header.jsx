@@ -24,9 +24,9 @@ export function Header() {
         </div>
         <div className={`Header-search ${openSearch && 'open'}`}>
           <div className="Header-search-container">
-            <div className='Header-search-container-icon'>
-              <input className="Header-search-input" type="text" placeholder='Buscar' />
-              <AiOutlineSearch className='Header-icons-search' />
+            <input className="Header-search-input" type="text" placeholder='Buscar' />
+            <div className="Header-search-icon-container">
+                <AiOutlineSearch className='Header-icons-search' />
             </div>
           </div>
           <button
