@@ -27,7 +27,7 @@
 .Song-container-sliderSong-space {
   content: '';
   width: 300px;
-  background-color: aquamarine;
+  background-color: brown;
   position: relative;
   scroll-snap-align: start;
 }
