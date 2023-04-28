@@ -33,7 +33,7 @@ const songs = [
   {
     title: "Ya no vuelvas",
     artist: "La Konga",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZNy9xE84UdZ8QQuVP7MuA_sab2ThsnCAtJQ&usqp=CAU",
+    img: "https://i1.sndcdn.com/artworks-Qc5gk0myJIfXlLA3-5k8GXA-t500x500.jpg",
   },
   {
     title: "Carmesi",
