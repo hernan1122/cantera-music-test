@@ -33,3 +33,26 @@ export function Home() {
     </div>
   );
 }
+
+
+/* return (
+  <div className="Home">
+    <Header />
+    <div className="Song-container">
+      <h2>Canciones</h2>
+      {songs.map(({ title, artist, img }) => {
+        return <Song
+          key={title}
+          img={img}
+          title={title}
+          artist={artist}
+        />;
+      })}
+    </div>
+    <Categories />
+    <button className="AddButton-button" onClick={handleModal}>
+      Agrega Tu Archivo
+    </button>
+    <Add see={seeModal} notSee={setSeeModal} />
+  </div>
+); */

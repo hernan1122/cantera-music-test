@@ -43,7 +43,7 @@
 }
 .Progressline div {
   content: "";
-  width: 50%;
+  width: 36%;
   height: 2px;
   background: var(--title);
   position: relative;
