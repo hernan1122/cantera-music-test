@@ -15,8 +15,8 @@ const songs = [
     img: "https://i.ytimg.com/vi/FpKERvWaWQs/maxresdefault.jpg",
   },
   {
-    title: "Ya no vuelvas",
-    artist: "La Konga",
+    title: "Ya No Vuelvas",
+    artist: "La Konga ft. Luck Ra",
     img: "https://i1.sndcdn.com/artworks-Qc5gk0myJIfXlLA3-5k8GXA-t500x500.jpg",
   },
   {
