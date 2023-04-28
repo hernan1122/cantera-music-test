@@ -16,6 +16,21 @@
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
 }
+.Song-contaner-slider::-webkit-scrollbar {
+  height: 2px;
+  background-color: none;
+}
+.Song-contaner-slider::-webkit-scrollbar-thumb {
+  background-color: var(--icons-buttons);
+  border-radius: 10px;
+}
+.Song-container-sliderSong-space {
+  content: '';
+  width: 300px;
+  background-color: aquamarine;
+  position: relative;
+  scroll-snap-align: start;
+}
 .AddButton-button-container {
   width: 100%;
   padding: 0 20px;

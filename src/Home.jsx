@@ -21,6 +21,7 @@ export function Home() {
           <Slider />
           <Slider />
           <Slider />
+          <div className="Song-container-sliderSong-space">..............</div>
         </div>
       </div>
       <Categories />
