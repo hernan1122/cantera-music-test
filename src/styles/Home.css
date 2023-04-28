@@ -25,9 +25,9 @@
   border-radius: 10px;
 }
 .Song-container-sliderSong-space {
-  content: '';
   width: 300px;
-  background-color: brown;
+  background-color: transparent;
+  color: transparent;
   position: relative;
   scroll-snap-align: start;
 }
