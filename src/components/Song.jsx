@@ -19,11 +19,3 @@ export function Song({title, artist, img}) {
     </div>
   );
 }
-
-{/* <Link to={`/song/${title}`}>
-  <img src={img} alt="" />
-  <div className="Song-description">
-    <h4>{ title }</h4>
-    <p>{ artist }</p>
-  </div>
-</Link> */}

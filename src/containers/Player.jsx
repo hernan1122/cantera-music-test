@@ -1,10 +1,10 @@
 import React from "react";
 import '../styles/Player.css'
-import {FooterMenu} from "./FooterMenu"
-import { PlayerButtons } from './PlayerButtons';
+import {FooterMenu} from "../components/FooterMenu"
+import { PlayerButtons } from '../components/PlayerButtons';
 
-import PlayerHeader from "./PlayerHeader";
-import PlayerSlider from "./PlayerSlider";
+import PlayerHeader from "../components/PlayerHeader";
+import PlayerSlider from "../components/PlayerSlider";
 export function Player() {
   return (
     <div className="Player">
