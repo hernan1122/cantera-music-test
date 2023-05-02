@@ -21,7 +21,7 @@ export const api = [
     "id": 3,
     "nameFile": "Cupido",
     "nameAuthor": "TINI",
-    "imageUrl": "https://i.pinimg.com/originals/bc/14/16/bc1416fbff18a5759528a796cd44a654.jpg",
+    "imageUrl": "https://i.scdn.co/image/ab67616d0000b273f5409c637b9a7244e0c0d11d",
     "fileUrl": "https://abril-cantera-songs.s3.sa-east-1.amazonaws.com/music/Cupido-TINI.mpeg",
     "categoryId": 1,
     "genderId": 1
@@ -64,8 +64,8 @@ export const api = [
   },
   {
     "id": 8,
-    "nameFile": "Las Pastillas del Abuelo",
-    "nameAuthor": "La Casada",
+    "nameFile": "La Casada",
+    "nameAuthor": "Las Pastillas del Abuelo",
     "imageUrl": "https://i.ytimg.com/vi/tkTPRMGKVew/sddefault.jpg",
     "fileUrl": "https://abril-cantera-songs.s3.sa-east-1.amazonaws.com/music/LaCasada-LasPastillasdelAbuelo.mpeg",
     "categoryId": 1,
