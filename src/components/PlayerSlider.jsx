@@ -1,6 +1,6 @@
 import {React, useState, useEffect, useRef} from "react";
-import '../styles/PlayerSlider.css'
 import { PlayerButtons } from "./PlayerButtons";
+import '../styles/PlayerSlider.css'
 
 export function PlayerSlider({ audioUrl, data, index, updateIndex}) {
   const [songDescription, setSongDescription] = useState({name:'' , artist: ''
