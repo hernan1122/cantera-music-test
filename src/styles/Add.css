@@ -77,7 +77,7 @@
   display: flex;
 }
 input[type="file" i]::-webkit-file-upload-button {
-  margin: 7px 0;
+  margin: 6px 0;
   background: transparent;
   color: transparent;
   border: none;
