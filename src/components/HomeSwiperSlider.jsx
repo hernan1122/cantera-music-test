@@ -13,7 +13,8 @@ export function HomeSwiperSlider() {
   return (
     <Swiper
       className='HomeSliderSong'
-      modules={[ Pagination]}
+      modules={[Pagination]}
+      spaceBetween={10}
       slidesPerView={1}
       pagination={{ clickable: true }}
     >
