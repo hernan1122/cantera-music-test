@@ -9,7 +9,7 @@
   margin-top: 80px;
   padding: 0 0 0 20px;
 }
-.Home-song-container-slider {
+/* .Home-song-container-slider {
   display: flex;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
@@ -22,7 +22,7 @@
 .Home-song-container-slider::-webkit-scrollbar-thumb {
   background-color: var(--icons-buttons);
   border-radius: 10px;
-}
+} */
 .Home-add-button-container {
   width: 100%;
   padding: 0 20px;
