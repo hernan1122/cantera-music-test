@@ -1,9 +1,9 @@
 .Category {
   width: 100%;
-  margin-top: -60px;
+  margin-top: 80px;
   margin-bottom: 65px;
 }
-.Category-song-container {
+.Category-container {
   margin-top: 80px;
   padding: 0 20px;
 }
