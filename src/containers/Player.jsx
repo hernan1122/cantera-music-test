@@ -8,16 +8,13 @@ import { useEffect } from 'react';
 
 export function Player() {
   // const URL_API = 'http://18.117.98.49:5000/api/v1/'
-  const [index, setIndex] = useState(1)
   
-  const updateIndex = (newVal)=>{
-    setIndex(newVal)
-  }
+  
   
   return (
     <div className="Player">
       <PlayerHeader />
-      <PlayerSlider audioUrl={api[index].fileUrl} data={api} index={index} updateIndex={updateIndex} />
+      <PlayerSlider /* audioUrl={api[index].fileUrl} */ data={api} />
       <FooterMenu/>
     </div>
   )
