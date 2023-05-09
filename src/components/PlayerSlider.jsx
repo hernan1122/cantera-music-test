@@ -1,4 +1,4 @@
-/* import {React, useState, useEffect, useRef} from "react";
+import {React, useState, useEffect, useRef} from "react";
 import { PlayerButtons } from "./PlayerButtons";
 import '../styles/PlayerSlider.css'
 
@@ -109,11 +109,11 @@ export function PlayerSlider({data}) {
     </>
   );
 }
- */
 
 
 
-import {React, useState, useEffect, useRef} from "react";
+
+/* import {React, useState, useEffect, useRef} from "react";
 import { PlayerButtons } from "./PlayerButtons";
 import '../styles/PlayerSlider.css'
 
@@ -184,3 +184,4 @@ export function PlayerSlider({data}) {
     </>
   );
 }
+ */
