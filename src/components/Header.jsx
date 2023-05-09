@@ -1,8 +1,8 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../styles/Header.css";
 
 //icons
-import { AiOutlineSearch } from "react-icons/ai";
 import { CgClose } from "react-icons/cg";
 import logoApp from "../images/cat.png";
 
@@ -16,13 +16,13 @@ export function Header() {
   return (
     <div className="Header">
       <div className="Header-title">
-        <div className="Header-content-title">
+        <Link className="Header-content-title" to='/'>
           <img className="Header-logoApp" src={logoApp} alt="" />
           <h1>
             Cantera <span>Music</span>
           </h1>
-        </div>
-        <div className={`Header-search ${openSearch && "open"}`}>
+        </Link>
+        {/* <div className={`Header-search ${openSearch && "open"}`}>
           <div className="Header-search-container">
             <input
               className="Header-search-input"
@@ -42,7 +42,7 @@ export function Header() {
         </div>
         <div onClick={handleClick}>
           <AiOutlineSearch className="Header-icons-search-btn" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
