@@ -15,10 +15,16 @@
   display: grid;
   place-items: center;
   text-decoration: none;
+  font-size: 24px;
+  color: var(--icons-buttons);
 }
 .FooterMenu-icons {
   font-size: 24px;
   color: var(--icons-buttons);
+}
+.active {
+  font-size: 31px;
+  color: #05af79;
 }
 .FooterMenu-container-categories {
   width: 100%;
