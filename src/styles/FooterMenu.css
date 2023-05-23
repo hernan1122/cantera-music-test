@@ -24,6 +24,7 @@
 }
 .active {
   font-size: 31px;
+  color: var(--footer-menu-hover);
 }
 .FooterMenu-container-categories {
   width: 100%;

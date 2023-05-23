@@ -25,7 +25,7 @@ export function Home() {
       <Categories />
       <div className="Home-add-button-container">
         <button className="Home-add-button" onClick={handleModal}>
-          Agrega Tu Archivo
+          Agrega Tu Audio
         </button>
       </div>
       <Add see={seeModal} notSee={setSeeModal} />
